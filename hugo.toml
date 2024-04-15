@@ -6,4 +6,4 @@ theme = 'stack'
 # Github Pagesでwebページを公開する場合には、 public/ ではなく docs/ 以下にhtmlを設置しておくルールとなっている
 # publishDir = "docs"
 # github.ioの下にさらにysdyt.netというディレクトリ階層をもたせた場合、baseurlの前提が異なるため、hugoは意図通りパスをビルドできない
-# canonifyurls = true 
+canonifyurls = true 
