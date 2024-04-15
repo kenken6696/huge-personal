@@ -8,6 +8,6 @@ theme = 'stack'
 # github.ioの下にさらにysdyt.netというディレクトリ階層をもたせた場合、baseurlの前提が異なるため、hugoは意図通りパスをビルドできない
 canonifyurls = true 
 
-services:
-  disqus:
-    shortname: https-kenken6696-github-io
+[services]
+  [services.disqus]
+    shortname = "https-kenken6696-github-io"
